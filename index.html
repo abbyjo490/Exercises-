@@ -2,24 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Photo Gallery</title>
+    <title>CSS Classes and IDs</title>
+    <style>
+        .main-headline {
+            text-align: center; color: blue;
+        }
+        .h2 {
+            text-align: center;
+        }
+        .place-description {
+            text-align: center; font-family: Verdana; color: olive;
+        }
+        .person-description {
+            text-align: center; color: purple;
+        }
+        .top-favorite {
+            font-weight: bold; color: red;
+        }
+        .important-point {
+            text-decoration: underline;
+        }
+        .emphasis {
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-<h1>Photo Gallery: National Landmark</h1>
+<h1 class="main-headline emphasis">Hello World!</h1>
 
-<img src="golden-gate.jpg" alt="golden gate bridge" height="150" width="150">
-<p><a href="image1.html" target="_blank">The Golden Gate Bridge is located in San Francisco, California.</a></p>
+<hr>
 
-<img src="actor.jpg" alt="actor" height="150" width="150">
-<p><a href="image2.html" target="_blank">Ryan Reynolds plays the lead role in Deadpool.</a></p>
+<h2 class="place-description">A place I would like to visit.</h2>
+<p class="place-description">If you could visit anywhere in the world, where would it be?</p>
+<ol class="place-description">
+    <li>Ireland because of the beautiful scenary</li>
+    <li>Denmark because of the colorful homes</li>
+    <li>Sweden because of all of the water </li>
+    <li>Machu Picchu because of the mountains</li>
+    <li>London because of the Big Ben</li>
 
-<img src="car.jpg" alt="car" height="150" width="150">
-<p><a href="image3.html" target="_blank">This is the 1957 Mercedes Benz 350 SL.This is the 1957 Mercedes Benz 350 SL.</a></p>
+    <p><a href="https://www.bluelagoon.com/day-visit">Blue Lagoon</a></p>
 
-<img src="dog.jpg" alt="dog" height="150" width="150">
-<p><a href="image4.html" target="_blank">This is a Golden Doodle puppy.</a></p>
+</ol>
 
-<img src="plant.jpg" alt="plant" height="150" width="150">
-<p><a href="image5.html" target="_blank">This is the best house plant to have.</a></p>
+<br>
+<h2 class="person-description">A person I admire (past or present).</h2>
+<br>
+<ul class="person-description">
+    <li class="important-point">Frida Cahlo because of her iconic eyebrows</li>
+    <p><a href="https://www.fridakahlo.org" target="_blank">More Information About Frida Kahlo</a></p>
+    <li>Steve Carell because he's from The Office</li>
+    <li>Shikera because of her amazing voice</li>
+    <li>Hazel Scott because of her classy music</li>
+    <li>Lizzo because of her body positivity</li>
+    <p><a href="https://lizzomusic.com" target="_blank"></a></p>
+
+</ul>
+<hr>
+<!--This is my favorite list.-->
+
+<h2 class="h2">Favorite Fruits</h2>
+<ul class="h2">
+    <li class="top-favorite emphasis">Pineapple</li>
+    <li>Apples</li>
+    <li>Grapes</li>
+    <li>Strawberries</li>
+    <li>Blueberries</li>
+</ul>
+
+<img src="pineapple.jpg" alt="pineapple." />
+
+<!--This is my last list.<-->
+<h2 class="h2">Favorite Presidents</h2>
+<ol class="h2">
+    <li>Obama</li>
+    <li>Kennedy</li>
+    <li>Jefferson</li>
+    <li>Lincoln</li>
+    <li>Washington</li>
+</ol>
+
+<div class="main-headline"></div>
+<div class="place-description"></div>
+<div class="person-description"></div>
+<div class="top-favorite"></div>
+<div class="h2"></div>
+<div class="important-point"></div>
+<div class="emphasis"></div>
 </body>
 </html>
+
