@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <link rel="shortcut icon" href="logo.png"/>
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        background: url("pub.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: visible;
+    }
+
+    .heading {
+        text-align: center;
+        padding-top: 300px;
+        padding-left: 70px;
+        font-size: 60px;
+        color: white;
+        font-family: Baskerville;
+        font-weight: bolder;
+    }
+
+    .subheading {
+        text-align: center;
+        font-size: 45px;
+        color: white;
+        font-family: Baskerville;
+        font-weight: bolder;
+        padding-bottom: 30px;
+
+    }
+
+    .wrapper {
+        width: 1180px;
+        height: 900px;
+        position: relative;
+        margin: 0 auto;
+        padding-top: 200px;
+    }
+
+    iframe {
+        margin: 0 auto;
+        padding-right: 400px;
+        position: center;
+
+    }
+
+    .navbar {
+        overflow: visible;
+        position: static; /* Set the navbar to static position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+        z-index: 3;
+    }
+
+    .container {
+        position: absolute;
+        width: auto;
+        top: 10px;
+        left: 800px;
+        right: 800px;
+        font-size: 40px;
+        font-family: Baskerville;
+        font-weight: bolder;
+        padding-top: 28px;
+    }
+
+    .img-container a {
+        float: left;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding-right: 50px;
+    }
+
+    .img-container a {
+        float: left;
+        color: darkorange;
+        text-align: center;
+        text-decoration: none;
+        padding-left: 100px;
+        padding-right: 30px;
+    }
+
+    .img-container a:hover {
+        color: white;
+    }
+
+    .img-container a.active {
+        background-color: darkorange;
+        color: darkorange;
+    }
+
+    div.transbox {
+        margin: 280px;
+        background-color: rgba(0,0,0,.5);
+        border: 1px solid black;
+        /*opacity: 0.6;*/
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+        height: 1200px;
+        width: 2000px;
+        padding-bottom: 200px;
+    }
+
+    div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .social-media {
+        position: fixed;
+        bottom: 25px;
+    }
+
+    #phone {
+        left: 587.5px;
+        padding-left: 500px;
+    }
+
+    #mail {
+        left: 657.5px;
+        padding-left: 500px;
+    }
+
+    #facebook {
+        left: 727.5px;
+        padding-left: 500px;
+    }
+
+    #twitter {
+        left: 797.5px;
+        padding-left: 500px;
+    }
+
+</style>
+</head>
+<body>
+
+<h1 class="heading">EVENTS</h1>
+
+<div class="background">
+    <div class="transbox">
+        <div class="wrapper">
+            <h2 class="subheading">Keegan's Monthly Event Calendar</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?src=abbysmith490%40gmail.com&ctz=America%2FChicago" style="border: 0" width="1600" height="850" frameborder="0" scrolling="no"></iframe>
+        </div><!--end of wrapper-->
+    </div>
+</div>
+
+<div class="navbar img-container">
+    <div class="container">
+        <div class="topnav">
+            <a href="home.html">Home</a>
+            <a style="padding-right:51px;" href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a style="padding-left:40px" href="events.html">Events</a>
+
+        </div>
+
+    </div>
+    <div class="social-media" id="mail">
+        <a href="mailto:info@keeganspub.com"><img src="email.png" alt="E-mail" height="60px" width="60px"></a>
+    </div>
+
+    <div class="social-media" id="facebook">
+        <a href="https://www.facebook.com/keeganspub"><img src="facebook.png" alt="Facebook" height="60px" width="60px"></a>
+    </div>
+
+    <div class="social-media" id="twitter">
+        <a href="https://twitter.com/keeganspub"><img src="twitter.png" alt="Twitter" height="60px" width="60px"></a>
+    </div>
+
+    <div class="social-media" id="phone">
+        <a href="tel:6122520880"><img src="phone.png" alt="Phone" height="60px" width="60px"></a>
+    </div>
+</div>
+</body>
+</html>
